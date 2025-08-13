@@ -193,9 +193,10 @@ body {
 }
 
 .mainDiv {
-    flex: 1;
     overflow-y: auto;
-    height: calc(100vh - 200px);
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .title {
@@ -260,7 +261,7 @@ body {
 }
 
 .singerCard:hover {
-    background-color: #282828;
+    background-color: black;
 }
 
 .singerCard img {
@@ -394,4 +395,3 @@ body {
     background-color: black;
     transform: scale(1.1);
 }
-
